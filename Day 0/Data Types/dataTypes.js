@@ -23,21 +23,21 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     
     // Write code that uses console.log to print the sum of the 'firstInteger' and 'secondInteger' (converted to a Number type) on a new line.
     if (!isNaN(Number(secondInteger)))
-		console.log(firstInteger + Number(secondInteger));
-	else
-		console.log(firstInteger);
+	console.log(firstInteger + Number(secondInteger));
+    else
+	console.log(firstInteger);
     
     // Write code that uses console.log to print the sum of 'firstDecimal' and 'secondDecimal' (converted to a Number type) on a new line.
-	if (!isNaN(Number(secondDecimal)))
-		console.log(firstDecimal + Number(secondDecimal));
-	else
-		console.log(firstDecimal);
+    if (!isNaN(Number(secondDecimal)))
+	console.log(firstDecimal + Number(secondDecimal));
+    else
+	console.log(firstDecimal);
     
     // Write code that uses console.log to print the concatenation of 'firstString' and 'secondString' on a new line. The variable 'firstString' must be printed first.
-	if (secondString)
-		console.log(firstString + secondString);
-	else
-		console.log(firstString);
+    if (secondString)
+	console.log(firstString + secondString);
+    else
+	console.log(firstString);
     
 }
 
