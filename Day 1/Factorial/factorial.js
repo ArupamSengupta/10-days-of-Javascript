@@ -11,10 +11,10 @@ function factorial(n){
 		return "Please enter a positive integer.";
 	else if ((Number(n) - parseInt(n)) !== 0)
 		return "Please enter an integer.";
-    else if (n === 1 || n === 0)
-        return 1;
-    else
-        return n*factorial(n-1);
+    	else if (n === 1 || n === 0)
+        	return 1;
+        else
+        	return n*factorial(n-1);
 }
 
 //Invoking the function with various paramters to cover all the corner cases.
